@@ -1,11 +1,18 @@
 
-.dashboard{
-    width:15%;
+.content{
+    display: flex;
+    width: 100%;
     height: 700px;
+    border: 1px solid red;
+}
+.dashboard{
+    border: 1px solid green;
+    width:15%;
+    height: 100%;
     /* border: 1px solid red; */
     background-color: rgb(2, 2, 67);
     color:white;
-    font-family: sans-serif;
+    
 }
 
 .header{
@@ -89,4 +96,428 @@ img{
 #down{
     
     color: rgb(173, 178, 183);
+}
+
+/* ----page------------------------------------------------- */
+
+/* --------header------------------------------------------------------ */
+
+.data{
+    width: 85%;
+    height: 100%;
+    border: 1px solid green;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+   
+}
+.nav{
+    width: 95%;
+    height: 25px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    
+    
+    
+}
+.nav img{
+    width: 12%;
+    height:70%;
+    margin: auto;
+}
+input{
+    margin-left: 75%;
+    padding: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.search {
+    width: 150px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23333" width="24" height="24" viewBox="0 0 24 24"><path d="M23.707 22.293l-6.374-6.374a9.5 9.5 0 1 0-1.414 1.414l6.374 6.374a1 1 0 0 0 1.414-1.414zM4 9a5 5 0 1 1 0 10 5 5 0 0 1 0-10z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 95% center; 
+}
+
+.incom{
+    height: 110px;
+    width: 95%;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    
+    
+}
+.incom div{
+    width: 23%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    background-color:#FFFFFF;
+    border-radius: 10px ;
+    
+    
+}
+.currency{
+    margin-left: 29px;
+}
+.incom1 div{
+ width: 50%;
+ height: 100%;
+ margin: auto;
+ /* border:1px solid red; */
+}
+#round{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(204, 248, 204);
+    text-align: center;
+    
+} 
+#coin{
+    
+    font-size: 50px;
+    color: green;
+    margin: auto;
+}
+.info{
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif
+}
+#earning{
+    margin-top: 20px;
+    color: #808080;
+    
+}
+#price{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+#percentage{
+    color: rgb(5, 177, 5);
+    font-weight:bold;
+    font-size: 15px;
+    font-style: normal;
+}
+#percentage1{
+    color: rgba(255, 0, 0, 0.912);
+    font-weight:bold;
+    font-size: 15px;
+    font-style: normal;
+    
+    
+}
+
+.currency div{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    /* border:1px solid red; */
+   }
+
+   #coin1{
+    
+    font-size: 50px;
+    color: rgb(130, 26, 190);
+    margin: auto;
+}
+
+#round1{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(241, 232, 255);
+    text-align: center;
+    
+} 
+
+#coin2{
+    
+    font-size: 50px;
+    color: rgb(37, 26, 190);
+    margin: auto;
+}
+
+#round2{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(216, 251, 243);
+    text-align: center;
+    
+} 
+
+#coin3{
+    
+    font-size: 50px;
+    color: rgba(255, 0, 38, 0.721);
+    margin: auto;
+}
+
+#round3{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(246, 206, 212);
+    text-align: center;
+    
+} 
+
+/* ----------------------------chart---------------------------------- */
+
+.chart{
+    height: 350px;
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    display: flex;
+}
+.chart1{
+    height: 100%;
+    width: 65%;
+    /* border: 1px solid green; */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.chart2{
+    background-color:#FFFFFF;
+    height: 100%;
+    width: 33%;
+    /* border: 1px solid green; */
+    margin-left: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.charthead{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    display: flex;
+}
+
+.quartarly{
+    height: 20px;
+    width: 100px;
+    margin-left: 68%;
+    /* border: 1px solid green; */
+    /* padding: 0px 5px 0px 5px; */
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    text-align: center;
+   align-content: center;
+   margin-top: 5px;
+   color: gray;
+   font-size: 14px;
+   font-family:  'Roboto', sans-serif;
+}
+#qua{
+  margin-left: 5px;
+}
+.overview{
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.month{
+    color: gray;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 5px; 
+    font-family: sans-serif;
+    
+}
+
+.chart1content{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    display: flex;
+}
+
+/* .chart1content div{
+    width: 49px;
+   height: 80%;
+   border: 1px solid green;
+   margin-left: 13px;
+   margin-top: 40px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+} */
+
+.chart1content1 {
+    width: 100%;
+   height: 30px;
+   /* border: 1px solid rgb(32, 0, 128); */
+   display: flex;
+   
+}
+.chart1content1 p{
+   width: 49px;
+   height: 20px;
+   align-content: center;
+   /* border: 1px solid red; */
+   margin-left: 13px;
+   font-size: 15px;
+   font-weight: 580;
+   text-align: center;
+   color:rgb(101, 100, 100);
+}
+
+.div1{
+    width: 49px;
+   height: 150px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top: 90px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+
+.div2{
+    width: 49px;
+   height: 110px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top: 130px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.div3{
+    width: 49px;
+   height: 70%px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top: 0px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.div4{
+    width: 49px;
+   height: 180px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top:60px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.div5{
+    width: 49px;
+   height: 210px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top:30px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.div6{
+    width: 49px;
+   height: 80px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top:160px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.div7{
+    width: 49px;
+   height: 210px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top:30px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.div8{
+    width: 49px;
+   height: 70%px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top: 0px;
+   border-radius: 10px;
+   background-color: rgb(136, 92, 239);
+}
+.div9{
+    width: 49px;
+   height: 220px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top: 20px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.div10{
+    width: 49px;
+   height: 180px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top: 60px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.div11{
+    width: 49px;
+   height: 160px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top: 80px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.div12{
+    width: 49px;
+   height: 180px;
+  /* border: 1px solid green; */
+   margin-left: 13px;
+   margin-top: 60px;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+.customer{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+.customer1{
+    font-weight: 400px;
+    margin-left: 20px;
+    color: rgb(181, 178, 178);
+    line-height: 23px;
+    line-height: 20px;
+}
+
+.total{
+    width: 260px;
+    height: 260px ;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.tota2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
 }
