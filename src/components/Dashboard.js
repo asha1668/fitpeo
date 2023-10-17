@@ -177,7 +177,7 @@ export const Dashboard = () => {
                     </div>
                     <div className="quartarly">
                       <span id="qua">Quartarly<i id="qua" className="bi bi-chevron-down"></i></span>
-                     </div>
+                    </div>
                   </div>
 
                   <div className="chart1content">
@@ -212,24 +212,80 @@ export const Dashboard = () => {
                   </div>
                   
             </div>
-
-            <div className="chart2">
+ 
+             <div className="chart2">
             <p className="customer">Customers</p>
             <p className="customer1" >Customers that buy products</p>
 
             <div className="total">
-                <div className="tota2">
-                    <div className="tota3">
-
-                    </div>
+                <div className="total4">
+                  <div className="total2">
+                      <div className="total3">
+                        <div className="toatl5">
+                          <p className="sixtyfive">65%</p>
+                          <p className="sixtyfive1">Toatal new customers</p>
+                        </div>
+                      </div>
+                  </div>
                 </div>
             </div>
             </div>
-        </div>
+        </div> 
+
+           
 
         <div className="footer">
+          <div className="footer1">
+            <p className="productsell">Product sell </p>
+            <input type="text" className="search1" placeholder="Search..."/>
+            <div className="quartarly1">
+              <span id="qua">Last 30 days<i id="qua" className="bi bi-chevron-down"></i></span>
+            </div>
+          </div>
+            
+         <div className="productdetail">
+          <div className="productname">Product Nmae</div>
+          <div className="stock">
+            <div>Stock</div>
+            <div>Price</div>
+            <div>Total Sales</div>
+          </div>
+         </div>
+
+         <div className="productdetail1">
+          <div className="productname1">
+            <div className="seeplant"></div>
+            <div className="abstract">
+            <p className="threed">Abstrct 3D</p>
+            <p className="lorem">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div className="stock">
+            <div className="instock">32 in stock</div>
+            <div className="nine">$45.99</div>
+            <div className="instock">20</div>
+          </div>
+         </div>
+         
+
+         <div className="productdetail1">
+          <div className="productname1">
+            <div className="seeplant1"></div>
+            <div className="abstract">
+            <p className="threed">Sarphens Illustration</p>
+            <p className="lorem">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div className="stock">
+            <div className="instock">32 in stock</div>
+            <div className="nine">$45.99</div>
+            <div className="instock">20</div>
+          </div>
+         </div>
 
         </div>
+
+        
 
       </div>
 
